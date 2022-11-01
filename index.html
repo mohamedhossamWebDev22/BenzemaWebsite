@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="bootstrap/bootstrap.css">
 
         <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+
+        <script src="https://kit.fontawesome.com/a655ca105d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
@@ -25,10 +27,10 @@
                         <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">numbers</a>
+                        <a class="nav-link text-secondary" href="#num">numbers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">gallery</a>
+                        <a class="nav-link text-secondary" href="#gl">gallery</a>
                     </li>
                 
                     <li class="nav-item">
@@ -92,10 +94,10 @@
             </div>
         </div>
 
-        <div class="bg-black-50 py-5">
+        <div id="num" class="bg-black-50 py-5">
             <div class="container my-5">
                 <div class="text-center">
-                    <h1 class="title-num display-4">My Numbers</h1>
+                    <h1 class="title-n display-4">My Numbers</h1>
                 </div>
 
                 <div class="container text-center numbers">
@@ -119,21 +121,50 @@
             </div>
         </div>
 
-        <div class="bg-light py-5">
+        <div id="gl" class="bg-light py-5">
             <div class="container my-5">
                 <div class="title text-center">
-                    <h1 class="display-4">Gallery</h1>
+                    <h1 class="title-n display-4">Gallery</h1>
                 </div>
 
-                <div class="images">
+                <div class="images my-5">
                     <img src="./imgs/img1.png" class="rounded float-left" alt="...">
                     <img src="./imgs/img2.png" class="rounded float-right" alt="...">
                     <img src="./imgs/carouselImg3.png" class="rounded mx-auto d-block" alt="...">
                     <img src="./imgs/img3.png" class="rounded float-left" alt="...">
                     <img src="./imgs/logo.png" class="rounded float-right" alt="...">
+                    <img src="./imgs/carouselImg2.png" class="rounded mx-auto d-block" alt="...">
                 </div>
             </div>
         </div>
+
+        <div class="bg-dark py-5">
+            <div class="container my-2 text-center">
+                <h1 class="display-4 text-light">press F to pay respect</h1>
+
+                <img src="./imgs/logo.png" class="rounded-circle my-1" alt="logo">
+            </div>
+        </div>
+
+        <div class="bg-light py-5">
+            <div class="container text-center">
+                <h1 class="display-4">Our Sponsers</h1>
+
+                <img src="./imgs/sponsor.png" class="editImg m-3 rounded" alt="sponsors">
+                <img src="./imgs/sponsor2.png" class="editImg m-3 rounded" alt="sponsors">
+            </div>
+        </div>
+
+        <footer class="bg-secondary text-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3">
+                © 2020 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <br>
+                <a href="https://www.flaticon.com/free-icons/adidas" class="text-light" title="adidas icons">Adidas icons created by Pixel perfect - Flaticon</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
 
         <script src="js/app.js"></script>
 

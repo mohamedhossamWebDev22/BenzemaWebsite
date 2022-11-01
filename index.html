@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="bootstrap/bootstrap.css">
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
 
         <script src="https://kit.fontawesome.com/a655ca105d.js" crossorigin="anonymous"></script>
@@ -72,7 +74,7 @@
             </a>
         </div>
 
-        <div class="bg-light py-5">
+        <div data-aos="fade-up" aos-duration="1000" class="bg-light py-5">
             <div class="container my-5">
                 <div class="row my-2">
                     <div class="col col-lg-4 text-center">
@@ -94,7 +96,7 @@
             </div>
         </div>
 
-        <div id="num" class="bg-black-50 py-5">
+        <div data-aos="fade-up" aos-duration="1000" id="num" class="bg-black-50 py-5">
             <div class="container my-5">
                 <div class="text-center">
                     <h1 class="title-n display-4">My Numbers</h1>
@@ -121,7 +123,7 @@
             </div>
         </div>
 
-        <div id="gl" class="bg-light py-5">
+        <div data-aos="fade-up" aos-duration="1000" id="gl" class="bg-light py-5">
             <div class="container my-5">
                 <div class="title text-center">
                     <h1 class="title-n display-4">Gallery</h1>
@@ -138,7 +140,7 @@
             </div>
         </div>
 
-        <div class="bg-dark py-5">
+        <div data-aos="fade-up" aos-duration="1000" class="bg-dark py-5">
             <div class="container my-2 text-center">
                 <h1 class="display-4 text-light">press F to pay respect</h1>
 
@@ -146,7 +148,7 @@
             </div>
         </div>
 
-        <div class="bg-light py-5">
+        <div data-aos="fade-up" aos-duration="1000" class="bg-light py-5">
             <div class="container text-center">
                 <h1 class="display-4">Our Sponsers</h1>
 
@@ -301,6 +303,11 @@
         <!-- Footer -->        
 
         <script src="js/app.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         <script src="bootstrap/popper.min.js"></script>
         <script src="bootstrap/jquery-3.6.1.min.js"></script>
